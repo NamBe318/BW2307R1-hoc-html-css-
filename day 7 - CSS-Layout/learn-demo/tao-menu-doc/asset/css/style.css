@@ -1,0 +1,45 @@
+#list ul {
+    list-style: none;
+}
+
+#list ul ul {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -27px;
+}
+
+#list ul li {
+    background-color: black;
+    width: 100px;
+    padding: 10px 20px;
+}
+
+#list ul li:hover ul {
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#list #vid1:hover {
+    background-color: rgb(0, 195, 255);
+}
+
+#list #vid2:hover {
+    background-color: rgb(87, 224, 24);
+}
+
+#list #vid3:hover {
+    background-color: rgb(11, 236, 187);
+}
+
+#list #vid4:hover {
+    background-color: rgb(16, 118, 165);
+}
+
+#list li li:hover {
+    background-color: red;
+}

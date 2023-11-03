@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>thuc hanh tao bang</title>
+</head>
+
+<body>
+	<header></header>
+	<main>
+		<!--Thong tin khach hang-->
+		<div>
+			<label>Name</label> <input type="text"> <br></br>
+			<label>Phone</label> <input type="text"> <br></br>
+			<label>Email</label> <input type="'text"> <br></br>
+		</div>
+		<!--lua chon-->
+		<div>
+			<fieldset>
+				<legend>Which taxi do you require</legend>
+				<input type="radio" name="answer" id="answer">
+				<label class="radio">Car</label>
+				<br></br>
+
+				<input type="radio" name="answer" id="answer">
+				<label class="radio">Van</label>
+				<br></br>
+
+				<input type="radio" name="answer" id="answer">
+				<label class="radio">Tuk Tuk</label>
+
+			</fieldset>
+			<fieldset>
+				<legend>Extras</legend>
+				<input type="checkbox" name="extras" id="extras"> Babe Seat <br></br>
+				<input type="checkbox" name="extras" id="extras"> Wheelchair Access <br></br>
+				<input type="checkbox" name="extras" id="extras"> Stock Tip
+			</fieldset><br>
+		</div>
+		<!--thoi gian, diem don-->
+		<div>
+			<label>
+				Pickup Date/Time</label>
+			<input type="datetime-local">
+			<br></br>
+			<label>
+				Pickup Place
+				<select Name="Place" id="Place">
+					<option value="Name" id="Date-Time">Personal house</option>
+					<option value="Name" id="Date-Time">Park</option>
+					<option value="Name" id="Date-Time">City Squar Mall</option>
+				</select>
+			</label> <br></br>
+			<label>
+				Dropoff Place <input type="text">
+			</label> <br></br>
+			<label>
+				Special Instructions <textarea></textarea>
+			</label>
+		</div> <br>
+		<!--button-->
+		<button>Submit Booking</button>
+	</main>
+	<footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    height: 40rem;
+    display: flex;
+}
+.nav {
+    background-color: aqua;
+    padding: 2%;
+}
+
+
+.item1 {
+    width: 10rem;
+    padding: 2%;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+}
+
+.item2 {
+    padding: 2%;
+}
+
+.footer {
+    background-color: aqua;
+    padding: 2%;
+}
